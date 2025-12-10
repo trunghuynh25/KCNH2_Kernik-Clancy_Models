@@ -131,7 +131,7 @@ end
 
 hold off; % Release the figure hold
 
-% --- Add labels, title, and legend ---
+%% Figure 8A
 title('Combined Calcium Transients for All Models');
 xlabel('Time (s)');
 ylabel('[Ca²⁺] (nM)'); % Using Unicode for superscript
