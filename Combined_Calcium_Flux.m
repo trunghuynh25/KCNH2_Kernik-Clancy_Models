@@ -152,7 +152,7 @@ end
 % Colors: Baseline(Blk), M1(Red), M2(Blue), M3(Green), M4(Black Dashed)
 colors = [0 0 0; 1 0 0; 0 0 0.8; 0 0.5 0; 0 0 0];
 
-%% FIGURE 1: Trace Overlays (Time Course)
+%% FIGURE 8C: Trace Overlays (Time Course)
 figure('Name', 'Flux Trace Overlays', 'Color', 'w');
 
 % --- Subplot 1: SERCA ---
@@ -193,7 +193,7 @@ xlim([0 1000]);
 legend(model_legends, 'Location', 'southeast');
 legend boxoff;
 
-%% FIGURE 2: Bar Chart (Total % Contribution)
+%% FIGURE 8C: Bar Chart (Total % Contribution)
 % Comparisons of the final values are often easier to read as bars
 figure('Name', 'Flux Contribution Percentages', 'Color', 'w');
 
